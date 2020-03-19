@@ -1,0 +1,83 @@
+body{
+	margin: auto;
+}
+
+h1{
+	margin: 20px auto 40px auto;
+	text-align: center;
+	font-family: monospace;
+	font-size: 50px;
+	width: 50%;
+	color: white;
+	background-color: black;
+	border-radius: 30px;
+	-webkit-box-shadow: 5px 20px 24px -3px rgba(199,227,220,1);
+	-moz-box-shadow: 5px 20px 24px -3px rgba(199,227,220,1);
+	box-shadow: 5px 20px 24px -3px rgba(199,227,220,1);
+}
+
+td{
+	text-align: center;
+}
+table{
+	width: 80%;
+	height: 550px;
+	margin-left:auto; 
+    margin-right:auto;
+    border-collapse: collapse;
+	border-radius: 100px
+}
+table,th,td{
+	border: 5px dashed;
+}
+
+.cellFirst:active{
+	background-color: rgba(89,255,214,1);
+}
+.cellFirst:hover{
+	background-color: rgba(199,227,220,1);
+	color:white;
+}
+.cellSecond:active{
+	background-color: rgba(89,131,255,1);
+}
+.cellSecond:hover{
+	background-color: rgba(49,79,163,1);
+	color:white;
+}
+
+.cellFourth:active{
+	background-color: rgba(89,131,255,1);
+}
+.cellFourth:hover{
+	background-color: rgba(49,79,163,1);
+	color:white;
+}
+
+.cellThird, .cellFifth, .cellSixth{
+	transition: 0.5s;
+}
+
+.cellThird:active{
+	background-color: #f7e42e;
+}
+.cellThird:hover{
+	background-color: #f4511e;
+	color:white;
+}
+
+.cellFifth:active{
+	background-color: #0c8459;
+}
+.cellFifth:hover{
+	background-color: #67b86d;
+	color:white;
+}
+
+.cellSixth:active{
+	background-color: #3c95a4;
+}
+.cellSixth:hover{
+	background-color: #d31935;
+	color:white;
+}
