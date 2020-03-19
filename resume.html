@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Лабораторна робота №2</title>
-	<meta charset="utf-8">
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Резюме</title>
 </head>
 <body>
 	<h1>РЕЗЮМЕ</h1>
-	<div class="image">
-		<img src="images/photo.png" alt="" width="150">
+	<div class="image mx-auto">
 	</div>
 
-	<ol>
+	<ul>
 		<li class="container">
-			<h2 class="itemName">Персональні дані</h2>
-			<ul class="item">
-				<li><span class="highlight">ПІБ:</span> Юрць Тарас Володимирович</li>
-				<li><span class="highlight">Дата народження:</span> 09.08.2000р</li>
-			</ul>
+			<div class="row">
+				<h2 class="itemName col-md-6 my-auto">Персональні дані</h2>
+				<ul class="item col-md-6">
+					<li><span class="highlight">ПІБ:</span> Юрць Тарас Володимирович</li>
+					<li><span class="highlight">Дата народження:</span> 09.08.2000р</li>
+				</ul>
+			</div>
 		</li>
 		
 		<li class="container">
-			<h2 class="itemName">Освіта</h2>
-			<ul class="item">
+			<div class="row">
+			<h2 class="itemName col-md-6 my-auto">Освіта</h2>
+			<ul class="item col-md-6">
 				<li>Прикарпатський національний університет ім. Василя Стефаника, <i>2017-2021рр.</i><br> 
 				<span class="highlight">спеціальність:</span> Комп'ютерні науки
 				</li>
 				<li>Бережанська ЗОШ I-III ступенів №1, <i>2014-2017рр.</i></li>	
 			</ul>
+			</div>
 		</li>	
 		<li class="container">
-			<h2 class="itemName">Досвід роботи</h2>
-			<ul class="item">
+			<div class="row">
+			<h2 class="itemName col-md-6 my-auto">Досвід роботи</h2>
+			<ul class="item col-md-6">
 				<li>Програма для реєстрації студентів</li>
 				<li>Програма для трансліції зображення екрану по UDP протоколу</li>
 				<li>Програма, що відтворює звуки птахів</li>
 			</ul>
+			</div>
 
 		</li>
 		<li class="container">
-			<h2 class="itemName">Професійні навички</h2>	
-			<ul class="item">
+			<div class="row">
+			<h2 class="itemName col-md-6 my-auto">Професійні навички</h2>	
+			<ul class="item col-md-6">
 				<li>
 					<span class="highlight"><b>Знання мов програмування:</b></span>
 					<ul>
@@ -72,14 +82,16 @@
 				</li>
 
 			</ul>
+		</div>
 
 		</li>
 		<li class="container">
-			<h2 class="itemName">Контактна інформація</h2>
-			<ul class="item">
+			<div class="row">
+			<h2 class="itemName col-md-6 my-auto">Контактна інформація</h2>
+			<ul class="item col-md-6">
 				<li><span class="highlight">Email:</span>	yurts.taras@comp-sc.if.ua</li>
 				<li><span class="highlight">Телефон:</span>	+38 099 0395 494</li>
-				<li><span class="highlight">Соціальні мережі:
+				<li><span class="highlight">Соціальні мережі:</span>
 					<a href="https://github.com/TaRiKsLeL">
 						<img src="images/github_logo.png" width="35" alt="">
 					</a>
@@ -90,13 +102,14 @@
 						<img src="images/facebook_logo.png" width="35" alt="">
 					</a>
 				 </li>
-			</ul>	
+			</ul>
+			</div>	
 		</li>
-	</ol>
+	</ul>
 
 	
 	<div align="center" class="container">
-	<h2><span>Форма зворотнього зв'язку</span></h2>
+	<h2><span class="itemName">Форма зворотнього зв'язку</span></h2>
 
 		<form class="form" action="" method="post">
 
@@ -105,12 +118,16 @@
 			<input type="tel" name="tel" placeholder="Телефон"><br>
 			<textarea name="message" placeholder="Повідомлення" rows="3"></textarea><br>
 
-			<input class="submitBtn" type="submit" >
+			<button class="btn btn-outline-dark" type="submit" >Відправити</button>
 		</form>
 	</div>
 
 	<hr>
 	<p class="hyperlink"><a href="table.html">Я вмію створювати таблиці</a></p>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
  
